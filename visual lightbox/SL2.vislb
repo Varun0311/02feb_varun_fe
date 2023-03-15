@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<VisualLightBox>
+    <Gallery version="2.5">
+        <Settings>
+            <AutoPlay>false</AutoPlay>
+            <DescSliding>true</DescSliding>
+            <GalleryMultipleSuffix>1</GalleryMultipleSuffix>
+            <GalleryName>SL2</GalleryName>
+            <GalleryOptionID>1</GalleryOptionID>
+            <HoverStart>true</HoverStart>
+            <ImageAspectRatio>true</ImageAspectRatio>
+            <ImageEngine>jquery</ImageEngine>
+            <ImageHeight>768</ImageHeight>
+            <ImageQuality>90</ImageQuality>
+            <ImageShrink>true</ImageShrink>
+            <ImageStretch>false</ImageStretch>
+            <ImageTemplate>16. Pinboard</ImageTemplate>
+            <ImageTemplateName>Pinboard</ImageTemplateName>
+            <ImageWidth>1024</ImageWidth>
+            <PublishFileName>D:/Internship/visual lightbox/Slider2/Slider2.html</PublishFileName>
+            <PublishIndex>Slider2.html</PublishIndex>
+            <PublishPath>D:/Internship/visual lightbox/Slider2</PublishPath>
+            <PublishPreview>true</PublishPreview>
+            <PublishType>file</PublishType>
+            <RelPaths>false</RelPaths>
+            <ResizeSpeed>6</ResizeSpeed>
+            <RightClick>true</RightClick>
+            <SlideShow>true</SlideShow>
+            <SlideShowDelay>6</SlideShowDelay>
+            <ThumbColumns>0</ThumbColumns>
+            <ThumbFitImage>false</ThumbFitImage>
+            <ThumbFormat>jpg</ThumbFormat>
+            <ThumbHeight>100</ThumbHeight>
+            <ThumbQuality>90</ThumbQuality>
+            <ThumbTemplate>No Frame Rounded</ThumbTemplate>
+            <ThumbTemplateName>No Frame Rounded</ThumbTemplateName>
+            <ThumbWidth>100</ThumbWidth>
+        </Settings>
+        <Images>
+            <Image>
+                <url>D:/figma projects/anime website UI for desktop.png</url>
+                <title>anime website UI for desktop</title>
+                <filesize>1791230</filesize>
+            </Image>
+            <Image>
+                <url>D:/figma projects/gaming console.png</url>
+                <title>gaming console</title>
+                <filesize>2275049</filesize>
+            </Image>
+            <Image>
+                <url>D:/figma projects/NIKE jordan 1.png</url>
+                <title>NIKE jordan 1</title>
+                <filesize>598101</filesize>
+            </Image>
+            <Image>
+                <url>D:/figma projects/TV shows website UI for desktop.png</url>
+                <title>TV shows website UI for desktop</title>
+                <filesize>1782090</filesize>
+            </Image>
+        </Images>
+    </Gallery>
+</VisualLightBox>
