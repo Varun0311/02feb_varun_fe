@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css2?family=Alkatra&display=swap');
+
+* {
+    font-family: 'Alkatra', cursive;
+}
+
+h2 {
+    text-align: center;
+}
+
+h4 {
+    text-align: center;
+}
+
+img {
+    width: 100px;
+    border-radius: 50%;
+    margin: auto;
+    display: flex;
+}
+
+.Selection ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+iframe {
+    height: 700px; 
+    width: 300px;
+    margin-left: 70px; 
+}
+a{
+    font-size: 32px;
+}
