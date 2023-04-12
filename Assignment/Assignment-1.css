@@ -1,0 +1,26 @@
+h1 {
+    text-align: center;
+    color: crimson;
+}
+.Que9
+table,
+th,
+td {
+    border: 2px solid black;
+    padding: 30px;
+    border-spacing: 30px;
+}
+.Que15 .bgimg{
+    background: url(https://cdn.pixabay.com/photo/2018/08/14/13/23/ocean-3605547__480.jpg) no-repeat;
+    width: 100%;
+    height: 500px;
+    color: aliceblue;
+}
+.Que19{
+    table,
+    th,td{
+        border: 1px;
+        padding: 5px;
+        border-spacing: 5px;
+    }
+}
