@@ -1,0 +1,116 @@
+body{
+    margin: 0%;
+    overflow: hidden;
+}
+
+header {
+    height: 70px;
+    width: auto;
+    /* box-shadow: 10px gray; */
+}
+
+.menu{
+    height: 70px;
+    width: 100%;
+    float: left;
+   box-shadow: 0px 2px rgba(128, 128, 128, 0.2);
+   position: fixed;
+   background-color: white;
+   margin-top: 0%;
+}
+
+.menu .logo{
+    width: 30%;
+    float:left
+}
+.menu .logo img {
+    height: 51px;
+    width: 150px;
+    /* float: left; */
+}
+
+.menu .home{
+    width: 70%;
+    display: inline;
+    float: left;
+    margin-top: 2px;
+
+}
+.menu .home ul li {
+    display: inline;
+    float: left;
+    left: 15px;
+    
+    
+}
+
+.menu .home ul li a {
+    text-decoration: none;
+    color: #00572d;
+    /* float: left; */
+    margin: 5px;
+    padding: 30px;
+    font-size: 18px;
+
+}
+
+/* slider */
+/* 
+.slider{
+
+    position: relative;
+}
+
+.slider .image{
+    width: 100%;
+    filter: brightness(70%);
+    position: absolute;
+}
+
+.slider .slider-text{
+    z-index: 2;
+    position: absolute;
+} */
+.sld{
+    width: 100%;
+    height: 700px;
+    position: relative;
+    /* top: 70px; */
+
+}
+.sld img {
+    width: 100%;
+    /* height: 500px; */
+    filter: brightness(70%);
+    position: absolute;
+    /* top: 70px; */
+    z-index: 0;
+}
+.sld .sld-text {
+    position: absolute;
+    z-index: 4;
+    color: #fff;
+    font-size: 45px;
+    line-height: 63px;
+    text-shadow: 0px 6px 6px rgb(0 0 0 / 75%);
+    top: 70px;
+    /* left: 230px; */
+    width: 100%;
+    text-align: center;
+}
+p{
+    margin: 0px;
+}
+
+.sld .sld-text .download-btn {
+    border: 1px solid #000;
+    background: #000;
+    color: #fff;
+    padding: 15px 25px;
+    border-radius: 50px;
+    font-weight: 600;
+    font-size: 15px;
+    /* display: inline-block; */
+    text-decoration: none;
+
+}
