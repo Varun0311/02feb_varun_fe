@@ -1,0 +1,289 @@
+body {
+    margin: 0%;
+    /* overflow: hidden; */
+    height: 5000px;
+}
+
+header {
+    height: 70px;
+    width: 100%;
+    box-shadow: 10px gray;
+    position: fixed;
+    z-index: 10;
+}
+
+/* NAVBAR */
+
+.menu {
+    height: 70px;
+    width: 100%;
+    float: left;
+    box-shadow: 0px 2px rgba(128, 128, 128, 0.2);
+    background-color: white;
+    margin-top: 0%;
+    position: relative;
+}
+
+.menu .logo {
+    width: 30%;
+    float: left
+}
+
+.menu .logo img {
+    height: 51px;
+    width: 150px;
+    /* float: left; */
+}
+
+.menu .home {
+    width: 70%;
+    display: inline;
+    float: left;
+    margin-top: 2px;
+
+}
+
+.menu .home ul li {
+    display: inline;
+    float: left;
+    left: 15px;
+
+
+}
+
+.menu .home ul li a {
+    text-decoration: none;
+    color: #00572d;
+    /* float: left; */
+    margin: 33px;
+    padding: 7px;
+    font-size: 18px;
+
+}
+
+.home ul li a {
+    border: 1px;
+    border-radius: 50px;
+    padding: 0px;
+    margin: 0%;
+}
+
+.home ul li a:hover {
+    background: darkgreen;
+    color: yellowgreen;
+}
+
+.menu .home ul li .log {
+    background-color: #00572d;
+    color: #fff;
+    /* border: 1px; */
+    border-radius: 50px;
+}
+
+/* ---------------------------------------------------------------------HOVER==-----------------------------------------------------------------*/
+
+.home ul li {
+    position: relative;
+}
+
+.order:hover .hide {
+    display: block;
+    position: absolute;
+    background: white;
+}
+
+.hide {
+    border: 1px solid black;
+    position: absolute;
+    width: 620px;
+    height: 405px;
+    top: 20px;
+    left: -126px;
+    background-color: #fff;
+    display: none;
+    z-index: 6;
+}
+
+.hide .hide-img {
+    position: absolute;
+    height: 250px;
+    width: 250px;
+}
+
+.hide .hide-img img {
+    padding: 28px;
+    margin: -10px;
+    width: 100%;
+    height: 100%;
+}
+
+.hide .hide-location ul {
+    margin-left: -17px;
+    position: absolute;
+    width: 479px;
+    height: 400px;
+    display: block;
+    left: 200px;
+    color: #00572dba;
+    list-style: none;
+
+}
+
+.hide .hide-location ul li {
+    margin: 0px;
+    line-height: normal;
+    padding: 10px 60px;
+}
+
+/* ------------------------------------------------------SLIDER------------------------------------------------------------------- */
+
+.sld {
+    width: 100%;
+    height: 640px;
+    position: relative;
+    top: 71px;
+    z-index: 0;
+
+}
+
+.sld img {
+    width: 100%;
+    /* height: 500px; */
+    filter: brightness(70%);
+    position: absolute;
+    /* top: 70px; */
+    z-index: 0;
+}
+
+.sld .sld-text {
+    position: absolute;
+    z-index: 4;
+    color: #fff;
+    font-size: 45px;
+    line-height: 63px;
+    text-shadow: 0px 6px 6px rgb(0 0 0 / 75%);
+    top: 70px;
+    /* left: 230px; */
+    width: 100%;
+    text-align: center;
+}
+
+p {
+    margin: 0px;
+}
+
+.sld .sld-text .download-btn {
+    border: 1px solid #000;
+    background: #000;
+    color: #fff;
+    padding: 15px 25px;
+    border-radius: 50px;
+    font-weight: 600;
+    font-size: 15px;
+    /* display: inline-block; */
+    text-decoration: none;
+}
+
+.sld-text .download-btn:hover {
+    background: #fff;
+    color: #000;
+    border-color: #000;
+}
+
+.outlet-div {
+    width: fit-content;
+    display: flex;
+    border-radius: 50px;
+    overflow: hidden;
+    box-shadow: 0px 10px 15px rgb(0 0 0 / 30%);
+    margin: auto;
+}
+
+.outlet-div .custom-select {
+    border: none;
+    border-radius: 0px;
+    margin: 0px;
+    height: auto;
+    padding: 20px 30px 20px 20px;
+    cursor: pointer;
+    color: #11141A;
+    font-weight: 500;
+}
+
+/* ---------------------------------------------------------------------CARDS-------------------------------------------------------------------------------------- */
+
+.cards h2 {
+    margin: 30px;
+}
+
+.cards .cards-img img {
+    height: 200px;
+    widows: 350px;
+    margin: 12px;
+    padding: 0%;
+}
+
+.cards .cards-img {
+    float: left;
+    padding: 0px 130px;
+}
+
+/* =====================================================================CARD HOVER================================================================================ */
+
+.cards .cards-img .img0 {
+    border: 2px solid powderblue;
+}
+
+.cards .cards-img .img0:hover {
+    border: 10px double powderblue;
+}
+
+
+.cards .cards-img .img1 {
+    border: 1px solid powderblue;
+
+}
+
+.cards .cards-img .img1:hover {
+    border: 10px double powderblue;
+}
+
+
+.cards .cards-img .img2 {
+    border: 1px solid powderblue;
+
+}
+
+.cards .cards-img .img2:hover {
+    border: 10px double powderblue;
+}
+
+
+.cards .cards-img .img3 {
+    border: 1px solid powderblue;
+
+}
+
+.cards .cards-img .img3:hover {
+    border: 10px double powderblue;
+}
+
+
+.cards .cards-img .img4 {
+    border: 1px solid powderblue;
+
+}
+
+.cards .cards-img .img4:hover {
+    border: 10px double powderblue;
+}
+
+
+.cards .cards-img .img5 {
+    border: 1px solid powderblue;
+
+}
+
+.cards .cards-img .img5:hover {
+    border: 10px double powderblue;
+}
